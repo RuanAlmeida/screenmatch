@@ -1,7 +1,5 @@
 # 🎬 ScreenMatch
 
-![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge)
 
 ## 📝 Descrição
 
