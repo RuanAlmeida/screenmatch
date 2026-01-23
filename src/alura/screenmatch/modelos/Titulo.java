@@ -1,4 +1,4 @@
-package alura.sreenmatch.modelos;
+package alura.screenmatch.modelos;
 
 public class Titulo {
 
@@ -61,12 +61,7 @@ public class Titulo {
                 """, nome, anoDeLancamento));
     }
 
-    /*public double getMediaAvaliacoes() {
+    public double pegaMedia(){
         return somaDasAvaliacoes / totalDeAvaliacoes;
-    }
-     */
-    public void getMediaAvaliacoes(){
-        System.out.println("Total de avaliações: " + totalDeAvaliacoes);
-        System.out.println("Media de avaliações: " + somaDasAvaliacoes / totalDeAvaliacoes);
     }
 }
