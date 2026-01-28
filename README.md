@@ -29,7 +29,7 @@ Projeto desenvolvido durante a formação Java da **Alura**.
 
 1. Clone o repositório.
 2. Abra o projeto na sua IDE (IntelliJ/Eclipse).
-3. Localize a classe `Principal.java` em `alura.screenmatch.principal`.
+3. Localize a classe `alura.screenmatch.Principal.Principal.java` em `alura.screenmatch.principal`.
 4. Execute o método `main`.
 
 Exemplo de Saída no Console:
