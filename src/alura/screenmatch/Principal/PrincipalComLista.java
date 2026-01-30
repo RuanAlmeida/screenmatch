@@ -48,7 +48,8 @@ public class PrincipalComLista {
 
 
         Collections.sort(lista);
-        System.out.println(lista);
+        System.out.println(lista
+        );
 
     }
 }
