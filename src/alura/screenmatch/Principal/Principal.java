@@ -4,7 +4,7 @@ import alura.screenmatch.modelos.Episodio;
 import alura.screenmatch.modelos.Filme;
 import alura.screenmatch.modelos.Serie;
 import alura.screenmatch.calculadora.CalculadoraDeTempo;
-import alura.screenmatch.calculadora.filtroRecomendacao;
+import alura.screenmatch.calculadora.FiltroRecomedacao;
 
 import java.util.ArrayList;
 
@@ -46,7 +46,7 @@ public class Principal {
 
         System.out.println(calculadora.getTempoTotal());
 
-        filtroRecomendacao filtro = new filtroRecomendacao();
+        FiltroRecomedacao filtro = new FiltroRecomedacao();
         filtro.filtra(meufilme);
 
 
