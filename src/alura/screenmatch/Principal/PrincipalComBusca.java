@@ -29,7 +29,7 @@ public class PrincipalComBusca {
                 .send(request, HttpResponse.BodyHandlers.ofString());
 
         String json = response.body();
-        System.out.println(json);
+      // System.out.println(json);
 
         Gson gson = new GsonBuilder()
                 .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
@@ -38,7 +38,7 @@ public class PrincipalComBusca {
         System.out.println(meuTituloOmdb);
 
         Titulo meuTitulo = new Titulo(meuTituloOmdb);
-        System.out.println(meuTitulo);
+        // System.out.println(meuTitulo);
 
     }
 }
