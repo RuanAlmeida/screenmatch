@@ -11,6 +11,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.IllegalFormatException;
 import java.util.Scanner;
 
 public class PrincipalComBusca {
@@ -42,6 +43,9 @@ public class PrincipalComBusca {
             System.out.println(meuTitulo);
         } catch (NumberFormatException e){
             System.out.println("Aconteceu um erro: ");
+            System.out.println(e.getMessage());
+        } catch (IllegalFormatException e){
+            System.out.println("Erro na formatação na busca: ");
             System.out.println(e.getMessage());
         } finally {
             System.out.println("Programa finalizado!");
