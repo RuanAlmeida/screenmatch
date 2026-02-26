@@ -1,5 +1,6 @@
 package alura.screenmatch.Principal;
 
+import alura.screenmatch.excecao.ErrorDeConversorDeAnoException;
 import alura.screenmatch.modelos.Titulo;
 import alura.screenmatch.modelos.TituloOmdb;
 import com.google.gson.FieldNamingPolicy;
@@ -47,6 +48,8 @@ public class PrincipalComBusca {
         } catch (IllegalFormatException e){
             System.out.println("Erro na formatação na busca: ");
             System.out.println(e.getMessage());
+        } catch (ErrorDeConversorDeAnoException e){
+            System.out.println(e.getMensagem());
         } finally {
             System.out.println("Programa finalizado!");
         }
